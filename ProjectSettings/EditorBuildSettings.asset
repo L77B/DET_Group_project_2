@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Elin/ElinVillageBuilder.unity
     guid: 8d193f6f4723975498517a6d2aff1c8d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Linnea/LinneaVillageBuilder.unity
     guid: 892dca495fed7e64eb261e042cb01f1d
   m_configObjects:
