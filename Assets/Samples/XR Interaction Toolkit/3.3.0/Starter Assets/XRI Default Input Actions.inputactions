@@ -453,6 +453,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "LeftHandPinch",
+                    "type": "Button",
+                    "id": "46aa9454-3380-4ba9-8e78-673a95a2e73d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftHandPosition",
+                    "type": "Button",
+                    "id": "6851ca00-76d4-4150-8182-939f15cdbe20",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -860,6 +878,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Thumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f131fa2d-199e-48b2-882a-c0153e143dad",
+                    "path": "/handtracking/left/pinch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHandPinch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a4141a27-0cdb-49a1-821e-6c22ddb1a911",
+                    "path": "/handtracking/left/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHandPosition",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -1546,6 +1586,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "RightHandPinch",
+                    "type": "Button",
+                    "id": "f2e4ecbe-b5d4-497b-bae6-5d109d0dc5fa",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightHandPosition",
+                    "type": "Button",
+                    "id": "97fdcbdc-7523-48bd-a0ac-fe24773a203a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1953,6 +2011,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Thumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "740f1696-0761-4d16-a59e-6da1ad391cb8",
+                    "path": "/handtracking/right/pinch",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandPinch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3cad3923-eca7-4edc-9893-cbf6a7d51c7f",
+                    "path": "/handtracking/right/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandPosition",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
