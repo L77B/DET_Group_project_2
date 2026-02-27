@@ -325,7 +325,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425077787}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &440979364
+--- !u!114 &446418170
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,10 +335,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: XRI Left/Pinch Position
+  m_Name: XRI Right/RightHandPosition
   m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
   m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ActionId: cac52a91-5970-4ad2-8c86-a8c0e91a1837
+  m_ActionId: 97fdcbdc-7523-48bd-a0ac-fe24773a203a
+--- !u!114 &550461226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left/LeftHandPinch
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 46aa9454-3380-4ba9-8e78-673a95a2e73d
+--- !u!114 &661717149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left/LeftHandPosition
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 6851ca00-76d4-4150-8182-939f15cdbe20
 --- !u!1 &714523634
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,15 +435,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de28436496545d0468fa87e7e10330e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.329504
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de28436496545d0468fa87e7e10330e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.222
+      value: -0.195
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de28436496545d0468fa87e7e10330e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.223
+      value: -0.185
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: de28436496545d0468fa87e7e10330e0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -535,6 +563,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1800725127586568702, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1820897918385990095, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_CameraYOffset
       value: 0
@@ -586,6 +618,14 @@ PrefabInstance:
     - target: {fileID: 2218496723442559054, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_Name
       value: XR Origin Hands (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4041915473600737349, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6355494128053973299, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -673,20 +713,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 348b5d9b587b74d15a637e35d5ace30a, type: 3}
   m_PrefabInstance: {fileID: 1095608809}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1126197946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
-  m_Name: XRI Right/Pinch Position
-  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
-  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  m_ActionId: 7a2e5dcd-3e49-4622-90ea-6607994f2be0
 --- !u!1 &1144903282
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,9 +724,8 @@ GameObject:
   - component: {fileID: 1144903286}
   - component: {fileID: 1144903285}
   - component: {fileID: 1144903284}
-  - component: {fileID: 1144903288}
-  - component: {fileID: 1144903283}
   - component: {fileID: 1144903287}
+  - component: {fileID: 1144903288}
   m_Layer: 0
   m_Name: Grab Interactable House
   m_TagString: Untagged
@@ -708,29 +733,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1144903283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144903282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Transformers.XRGeneralGrabTransformer
-  m_PermittedDisplacementAxes: -1
-  m_ConstrainedAxisDisplacementMode: 1
-  m_TwoHandedRotationMode: 1
-  m_AllowOneHandedScaling: 1
-  m_AllowTwoHandedScaling: 0
-  m_OneHandedScaleSpeed: 0.5
-  m_ThresholdMoveRatioForScale: 0.05
-  m_ClampScaling: 1
-  m_MinimumScaleRatio: 0.25
-  m_MaximumScaleRatio: 2
-  m_ScaleMultiplier: 0.25
 --- !u!114 &1144903284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,7 +750,7 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
+  m_SelectMode: 1
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
@@ -853,7 +855,8 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_StartingSingleGrabTransformers: []
-  m_StartingMultipleGrabTransformers: []
+  m_StartingMultipleGrabTransformers:
+  - {fileID: 1144903288}
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
   m_LimitLinearVelocity: 0
@@ -896,7 +899,7 @@ Transform:
   m_GameObject: {fileID: 1144903282}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 26, y: 2.432, z: 3.726}
+  m_LocalPosition: {x: 26, y: 2.436, z: 3.684}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -912,35 +915,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144903282}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 597afe16a0d6a4d7eb423ab340ccf192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  leftPinchPos:
+  leftHandPosition:
     m_UseReference: 1
     m_Action:
-      m_Name: Left Pinch Pos
+      m_Name: Left Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 4dce6224-e526-41f6-b286-14a29f3c652a
+      m_Id: e16a1c0e-6310-4d3f-99e3-d722dba49c8d
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 440979364}
-  rightPinchPos:
+    m_Reference: {fileID: 1866635122}
+  rightHandPosition:
     m_UseReference: 1
     m_Action:
-      m_Name: Right Pinch Pos
+      m_Name: Right Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 9ad11624-2e3a-4389-ad60-2ec4f250d32d
+      m_Id: f9c55462-ae79-4d92-9442-9ef854e8a75c
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 1126197946}
+    m_Reference: {fileID: 446418170}
   leftPinch:
     m_UseReference: 1
     m_Action:
@@ -952,7 +955,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 1237991304}
+    m_Reference: {fileID: 550461226}
   rightPinch:
     m_UseReference: 1
     m_Action:
@@ -964,8 +967,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 1162073007}
-  grabInteractable: {fileID: 1144903284}
+    m_Reference: {fileID: 2000920236}
 --- !u!114 &1144903288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -975,11 +977,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1144903282}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 162b4e5a3d1fcd043afbc6bf71ab2e51, type: 3}
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Transformers.XRDualGrabFreeTransformer
-  m_MultiSelectPosition: 0
-  m_MultiSelectRotation: 2
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Transformers.XRGeneralGrabTransformer
+  m_PermittedDisplacementAxes: -1
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 1
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 3.15
+  m_ScaleMultiplier: 0.25
 --- !u!114 &1162073007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1402,11 +1413,10 @@ GameObject:
   - component: {fileID: 1499719741}
   - component: {fileID: 1499719740}
   - component: {fileID: 1499719739}
-  - component: {fileID: 1499719738}
   - component: {fileID: 1499719737}
   - component: {fileID: 1499719736}
   m_Layer: 0
-  m_Name: Grab Interactable House (1)
+  m_Name: Bacon House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1419,35 +1429,35 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499719735}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 597afe16a0d6a4d7eb423ab340ccf192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  leftPinchPos:
+  leftHandPosition:
     m_UseReference: 1
     m_Action:
-      m_Name: Left Pinch Pos
+      m_Name: Left Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 4dce6224-e526-41f6-b286-14a29f3c652a
+      m_Id: e12cd947-dad6-499e-8de0-7c134899cd4e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 440979364}
-  rightPinchPos:
+    m_Reference: {fileID: 661717149}
+  rightHandPosition:
     m_UseReference: 1
     m_Action:
-      m_Name: Right Pinch Pos
+      m_Name: Right Hand Position
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 9ad11624-2e3a-4389-ad60-2ec4f250d32d
+      m_Id: da544cad-d51d-4367-b1f7-9fbc6d85185b
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 1126197946}
+    m_Reference: {fileID: 1917561711}
   leftPinch:
     m_UseReference: 1
     m_Action:
@@ -1472,7 +1482,6 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 1162073007}
-  grabInteractable: {fileID: 1499719739}
 --- !u!114 &1499719737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,27 +1498,13 @@ MonoBehaviour:
   m_ConstrainedAxisDisplacementMode: 1
   m_TwoHandedRotationMode: 1
   m_AllowOneHandedScaling: 1
-  m_AllowTwoHandedScaling: 0
+  m_AllowTwoHandedScaling: 1
   m_OneHandedScaleSpeed: 0.5
   m_ThresholdMoveRatioForScale: 0.05
   m_ClampScaling: 1
   m_MinimumScaleRatio: 0.25
-  m_MaximumScaleRatio: 2
+  m_MaximumScaleRatio: 3.15
   m_ScaleMultiplier: 0.25
---- !u!114 &1499719738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499719735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 162b4e5a3d1fcd043afbc6bf71ab2e51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Transformers.XRDualGrabFreeTransformer
-  m_MultiSelectPosition: 0
-  m_MultiSelectRotation: 2
 --- !u!114 &1499719739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1527,7 +1522,7 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
+  m_SelectMode: 1
   m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
@@ -1632,7 +1627,8 @@ MonoBehaviour:
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_StartingSingleGrabTransformers: []
-  m_StartingMultipleGrabTransformers: []
+  m_StartingMultipleGrabTransformers:
+  - {fileID: 1499719737}
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 0
   m_LimitLinearVelocity: 0
@@ -1701,6 +1697,48 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c22919192e8643fa9df17a89d5a97c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::XROriginHeight
+--- !u!114 &1866635122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Left/LeftHandPosition
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 6851ca00-76d4-4150-8182-939f15cdbe20
+--- !u!114 &1917561711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/RightHandPosition
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: 97fdcbdc-7523-48bd-a0ac-fe24773a203a
+--- !u!114 &2000920236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1515ab76e54f068e2f2207940fab32, type: 3}
+  m_Name: XRI Right/RightHandPinch
+  m_EditorClassIdentifier: Unity.InputSystem::UnityEngine.InputSystem.InputActionReference
+  m_Asset: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_ActionId: f2e4ecbe-b5d4-497b-bae6-5d109d0dc5fa
 --- !u!1 &2085119279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1727,8 +1765,8 @@ Transform:
   m_GameObject: {fileID: 2085119279}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.63, y: -0.877, z: 0.111}
-  m_LocalScale: {x: 0.47606856, y: 0.70280385, z: 0.7597338}
+  m_LocalPosition: {x: 0.319, y: 0.355, z: 0.136}
+  m_LocalScale: {x: 0.59740186, y: 1.0916653, z: 0.7597338}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1144903286}
@@ -1772,7 +1810,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2142835734
 MonoBehaviour:
   m_ObjectHideFlags: 0
