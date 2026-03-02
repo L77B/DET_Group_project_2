@@ -138,8 +138,8 @@ Transform:
   m_GameObject: {fileID: 3416611189417336338}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.075, z: 0.164}
+  m_LocalScale: {x: 1, y: 0.6134, z: 0.609748}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6330180697502281989}
@@ -226,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 4759071726932641846}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4, z: -0.4}
+  m_LocalPosition: {x: 0, y: 0.355, z: -0.115}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -413,6 +413,7 @@ GameObject:
   - component: {fileID: 5418179125373180238}
   - component: {fileID: 3207804870951765316}
   - component: {fileID: 1388044231423470992}
+  - component: {fileID: 1245369031462216049}
   m_Layer: 0
   m_Name: GrababbleHouseBacon
   m_TagString: Untagged
@@ -430,7 +431,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 26.186, y: 2.22, z: 3.9557}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5582207650029511259}
@@ -539,8 +540,8 @@ MonoBehaviour:
   m_StartingInteractionStrengthFilters: []
   m_AutoFindParentInteractableInHierarchy: 0
   m_ParentInteractableObject: {fileID: 0}
-  m_AttachTransform: {fileID: 0}
-  m_SecondaryAttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 4691443230687710919}
+  m_SecondaryAttachTransform: {fileID: 3245899543796831320}
   m_UseDynamicAttach: 0
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
@@ -618,6 +619,22 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &1245369031462216049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7264930459526664357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc0ae918252e44f7bb2886e6ba9b238b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HideSpheresOnTable
+  scaleSpheres:
+  - {fileID: 4759071726932641846}
+  - {fileID: 2968102943679018204}
+  tableTag: Table
 --- !u!1001 &3019526341488290009
 PrefabInstance:
   m_ObjectHideFlags: 0
