@@ -9,6 +9,8 @@ public class DayCircle : MonoBehaviour
     public Material afternoonMaterial;
     public Material eveningMaterial;
     public Material nightMaterial;
+
+    public GameObject nightText;
     private Renderer objectRenderer;
 
     // once before the first execution of Update after the MonoBehaviour is created
@@ -17,6 +19,7 @@ public class DayCircle : MonoBehaviour
         objectRenderer = GetComponent<Renderer>();
         StartCoroutine(DayNightCycle());
     }
+
 
     IEnumerator DayNightCycle()
     {
@@ -35,7 +38,9 @@ public class DayCircle : MonoBehaviour
             yield return new WaitForSeconds(36);
 
             objectRenderer.material = nightMaterial;
-            yield return new WaitForSeconds(16);
+            yield return new WaitForSeconds(3);
+            nightText.SetActive(true);
+            yield return new WaitForSeconds(13);
         }
     }
 }
