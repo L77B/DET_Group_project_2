@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HideSpheresOnTable
   scaleSpheres:
   - {fileID: 600382118260209098}
-  - {fileID: 0}
+  - {fileID: 1188893157169387622}
   tableTag: Table
 --- !u!1 &3492774685303557493
 GameObject:

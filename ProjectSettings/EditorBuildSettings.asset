@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Elin/ElinVillageBuilder.unity
     guid: 8d193f6f4723975498517a6d2aff1c8d
   - enabled: 0
-    path: Assets/Linnea/LinneaVillageBuilder.unity
+    path: Assets/Linnea/Houses/LinneaVillageBuilder.unity
     guid: 892dca495fed7e64eb261e042cb01f1d
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
