@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Anchor
   - Table
+  - Wall
+  - Deathzone
   layers:
   - Default
   - TransparentFX

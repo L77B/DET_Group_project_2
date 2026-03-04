@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LinneaNightSky
+  m_Name: Evening
   m_Shader: {fileID: 103, guid: 0000000000000000f000000000000000, type: 0}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BackTex:
-        m_Texture: {fileID: 2800000, guid: 18d192d1b3aef4da6ad9f44d2fdc6077, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6e3f1e3ae52c04e27ab59728aa4dfd8b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DownTex:
-        m_Texture: {fileID: 2800000, guid: 3f5e64107e5fd4166b8a906efccea161, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6dfc6d20b925740ee8b2a58a80f60a26, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -52,11 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FrontTex:
-        m_Texture: {fileID: 2800000, guid: f555ba34228f34245afe59dcec6beb76, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4af3ba1a93b9742eabe43b80caafb6ef, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _LeftTex:
-        m_Texture: {fileID: 2800000, guid: 04171fc86b9d54631bba1b7a57797ba1, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3b4b887363dce40c2a4aefffd3c695dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -76,15 +76,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RightTex:
-        m_Texture: {fileID: 2800000, guid: 7867465f38c634ea390029c318546a29, type: 3}
+        m_Texture: {fileID: 2800000, guid: 72453a386a6d7430894cc4aa6033f6e9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Tex:
-        m_Texture: {fileID: 8900000, guid: df8d1504e61fa6046bbb3b99bf96da1a, type: 3}
+        m_Texture: {fileID: 8900000, guid: 72dbfaf2e11e92744a2ff15822b9079f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _UpTex:
-        m_Texture: {fileID: 2800000, guid: 9aa51ccd3a0c5422fb441a0567bae989, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4468bf097f2914878a54fbab20ae65c7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -101,7 +101,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _Rotation: 117
+    - _Rotation: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -110,6 +110,6 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Tint: {r: 0.92452824, g: 0.89627063, b: 0.8659664, a: 0.5}
+    - _Tint: {r: 1, g: 0.9095238, b: 0.7857142, a: 0.5}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
