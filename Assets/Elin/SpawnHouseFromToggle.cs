@@ -1,18 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR.Interaction.Toolkit; 
+
 
 public class SpawnAndFreezeHouse : MonoBehaviour
 {
     public GameObject housePrefab;
     public float spawnDistance = 0.5f;
+    private Rigidbody rb;
 
     private Toggle toggle;
+    
 
     void Start()
     {
         toggle = GetComponent<Toggle>();
         toggle.onValueChanged.AddListener(OnToggleChanged);
+        
     }
 
     void OnToggleChanged(bool isOn)
@@ -27,11 +31,11 @@ public class SpawnAndFreezeHouse : MonoBehaviour
 
         // Freeze the house so it floats
         Rigidbody rb = obj.GetComponent<Rigidbody>();
-        if (rb != null)
+        /*if (rb != null)
         {
             rb.useGravity = false;
             rb.constraints = RigidbodyConstraints.FreezeAll;
-        }
+        }*/
 
         // Add the unfreeze script directly to the spawned object
         //obj.AddComponent<FreezeUntilGrabbed>();
@@ -39,5 +43,6 @@ public class SpawnAndFreezeHouse : MonoBehaviour
         toggle.isOn = false;
         
     }
-}
+    
+} 
 
