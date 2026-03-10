@@ -41,13 +41,13 @@ public class SheepMovement : MonoBehaviour
         moveDirection = Quaternion.AngleAxis(turnStep, Vector3.up) * moveDirection;
 
         Vector3 flatMove = moveDirection;
-        flatMove.y = 0f;
-        if (flatMove.sqrMagnitude > 0.0001f)
-        {
-            flatMove.Normalize();
-            rb.linearVelocity = flatMove * walkSpeed;
-            transform.rotation = Quaternion.FromToRotation(modelForward, flatMove);
-        }
+
+        // flatMove.y = 0f;
+
+        flatMove.Normalize();
+        rb.linearVelocity = flatMove * walkSpeed;
+        transform.rotation = Quaternion.FromToRotation(modelForward, flatMove);
+
     }
 
 
