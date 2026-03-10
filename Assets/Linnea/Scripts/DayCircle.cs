@@ -1,7 +1,7 @@
 using System.Configuration.Assemblies;
 using System.Collections;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class DayCircle : MonoBehaviour
 {
     public Material morningMaterial;
@@ -54,4 +54,8 @@ public class DayCircle : MonoBehaviour
         StartCoroutine(DayNightCycle());
         startMenu.SetActive(false);
     }
+    public void RestartGame()
+ {
+     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+ }
 }
