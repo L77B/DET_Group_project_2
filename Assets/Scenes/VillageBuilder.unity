@@ -709,6 +709,54 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa6050832a15f8f44b1056269a4c260c, type: 3}
+--- !u!1 &374253868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 374253870}
+  - component: {fileID: 374253869}
+  m_Layer: 0
+  m_Name: Websocketsystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &374253869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374253868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ee1741b8bc7e4d2e9f19b05af2114a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WebSocketClientExample
+  dayCircle: {fileID: 604800755}
+  serverIP: 10.204.0.57
+  serverPort: 8081
+  ledIntensity: 0
+--- !u!4 &374253870
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 374253868}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.039, y: 1.925, z: 2.988}
+  m_LocalScale: {x: 0.8454121, y: 0.22957937, z: 0.01631471}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &380719161
 GameObject:
   m_ObjectHideFlags: 0
@@ -1519,7 +1567,6 @@ GameObject:
   - component: {fileID: 604800756}
   - component: {fileID: 604800755}
   - component: {fileID: 604800754}
-  - component: {fileID: 604800759}
   m_Layer: 0
   m_Name: SkySphere
   m_TagString: Untagged
@@ -1715,24 +1762,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &604800759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 604800753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0162983ed00541ffa58737c9e10a747, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WebSocketClient
-  dayCircle: {fileID: 604800755}
-  lightBulbDigitalLight: {fileID: 0}
-  lightBulbAnalogLight: {fileID: 0}
-  IPAdress: 10.204.0.57
-  Port: 7890
-  connectionStatusText: {fileID: 0}
 --- !u!1 &641048652
 GameObject:
   m_ObjectHideFlags: 0
@@ -7109,6 +7138,7 @@ SceneRoots:
   - {fileID: 38100649}
   - {fileID: 668979484}
   - {fileID: 491367682}
+  - {fileID: 374253870}
   - {fileID: 604800758}
   - {fileID: 2076787834}
   - {fileID: 751232645}

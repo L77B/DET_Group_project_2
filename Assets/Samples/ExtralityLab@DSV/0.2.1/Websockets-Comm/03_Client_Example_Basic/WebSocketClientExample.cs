@@ -2,6 +2,7 @@ using UnityEngine;
 using NativeWebSocket;
 using UnityEngine.Events;
 using System;
+using UnityEngine.SceneManagement;
 
 
 #if UNITY_EDITOR
@@ -10,8 +11,10 @@ using UnityEditor;
 
 public class WebSocketClientExample : MonoBehaviour
 {
+    public DayCircle dayCircle;   
+
     private WebSocket websocket;
-    public string serverIP = "XXX.XXX.XXX.XXX"; // Replace with your server's IP address
+    public string serverIP = "10.204.0.57"; // Replace with your server's IP address
     public int serverPort = 8081; // Replace with your server's port number (8081 is the default)
 
     [Range(0, 255)]
@@ -117,7 +120,7 @@ public class WebSocketClientExample : MonoBehaviour
         }
     }
 
-    public void IncomingMessageParser(String msg)
+    /*public void IncomingMessageParser(String msg)
     {
         string valueParsed = msg.Substring( msg.IndexOf(":") + 1);
 
@@ -135,7 +138,30 @@ public class WebSocketClientExample : MonoBehaviour
 
         }
 
+    }*/
+    public void IncomingMessageParser(String msg)
+{
+    string valueParsed = msg.Substring(msg.IndexOf(":") + 1);
+
+    // Restart when ESP32 button 42 is pressed
+    if (msg.Contains("button42") && valueParsed == "1")
+    {
+        Debug.Log("Restarting scene...");
+        dayCircle.RestartGame();
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    // Your existing button logic
+    if (msg.Contains("button"))
+    {
+        if (valueParsed == "1")
+            Debug.Log("ESP32 Button Pressed");
+
+        if (valueParsed == "0")
+            Debug.Log("ESP32 Button Released");
+    }
+}
+
 
 }
 
