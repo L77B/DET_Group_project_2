@@ -6707,18 +6707,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1663004032451773684, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.31212002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1663004032451773684, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.31212005
-      objectReference: {fileID: 0}
-    - target: {fileID: 1663004032451773684, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.31212002
-      objectReference: {fileID: 0}
-    - target: {fileID: 1663004032451773684, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25.774
       objectReference: {fileID: 0}
@@ -6761,82 +6749,6 @@ PrefabInstance:
     - target: {fileID: 3497256048405970219, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
       propertyPath: m_Name
       value: GrababbleTree1 (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3735601311890935149, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2098126036}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2098126036}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeObjectLayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ChangeObjectLayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: HideSpheresOnTable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: HideSpheresOnTable, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectExited.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302395104366151626, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858863746487133824, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.085307926
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858863746487133824, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.085307926
-      objectReference: {fileID: 0}
-    - target: {fileID: 8858863746487133824, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.085307926
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7510,17 +7422,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2098126036 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5230172702589258003, guid: e5f2d34c590d73843b8bf3e0549e8ea6, type: 3}
-  m_PrefabInstance: {fileID: 1720631715}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc0ae918252e44f7bb2886e6ba9b238b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HideSpheresOnTable
 --- !u!1001 &2142838625
 PrefabInstance:
   m_ObjectHideFlags: 0

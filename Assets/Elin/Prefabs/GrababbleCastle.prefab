@@ -257,10 +257,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6539810772280703280}
+        m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
+        m_MethodName: ChangeObjectLayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6539810772280703280}
+        m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
+        m_MethodName: ChangeObjectLayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -379,6 +403,7 @@ MonoBehaviour:
   - {fileID: 65980788942651766}
   - {fileID: 9127662009062065042}
   tableTag: Table
+  originalLayer: 0
 --- !u!1 &3236370429193121047
 GameObject:
   m_ObjectHideFlags: 0

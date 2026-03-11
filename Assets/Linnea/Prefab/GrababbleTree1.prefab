@@ -62,7 +62,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.39, y: 0.146, z: -0.008}
-  m_LocalScale: {x: 0.08, y: 0.08, z: 0.08}
+  m_LocalScale: {x: 0.085307926, y: 0.085307926, z: 0.085307926}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7665048054550934152}
@@ -175,7 +175,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 26.133, y: 2.1114998, z: 3.641}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.31212002, y: 0.31212005, z: 0.31212002}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1515553208091299775}
@@ -205,7 +205,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
@@ -257,10 +257,34 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5230172702589258003}
+        m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
+        m_MethodName: ChangeObjectLayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5230172702589258003}
+        m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
+        m_MethodName: ChangeObjectLayer
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_FirstFocusEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -379,6 +403,7 @@ MonoBehaviour:
   - {fileID: 3203718268015472619}
   - {fileID: 5847245934714810298}
   tableTag: Table
+  originalLayer: 0
 --- !u!1 &3863991919541454930
 GameObject:
   m_ObjectHideFlags: 0
