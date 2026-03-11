@@ -8,6 +8,7 @@ using System.Collections;
 
 public class WebSocketClient : MonoBehaviour
 {
+	public DayCircle dayCircle; // assign in Inspector
 
 	private bool isLedOn = false; //Variable to keep track of the LED state
 
