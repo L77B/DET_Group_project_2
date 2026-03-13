@@ -29,21 +29,21 @@ public class DayCircle : MonoBehaviour
         while (started)
         {
             objectRenderer.material = morningMaterial;
-            yield return new WaitForSeconds(36);
+            yield return new WaitForSeconds(46);
 
             objectRenderer.material = dayMaterial;
-            yield return new WaitForSeconds(46);
+            yield return new WaitForSeconds(56);
 
             objectRenderer.material = afternoonMaterial;
-            yield return new WaitForSeconds(46);
+            yield return new WaitForSeconds(56);
 
             objectRenderer.material = eveningMaterial;
-            yield return new WaitForSeconds(36);
+            yield return new WaitForSeconds(56);
 
             objectRenderer.material = nightMaterial;
             yield return new WaitForSeconds(5);
             nightText.SetActive(true);
-            yield return new WaitForSeconds(100);
+            yield return new WaitForSeconds(500);
             started = false;
         }
     }
@@ -55,7 +55,7 @@ public class DayCircle : MonoBehaviour
         startMenu.SetActive(false);
     }
     public void RestartGame()
- {
-     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
- }
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

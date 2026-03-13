@@ -260,8 +260,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6539810772280703280}
         m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
-        m_MethodName: ChangeObjectLayer
-        m_Mode: 3
+        m_MethodName: unFreeze
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -275,8 +275,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 6539810772280703280}
         m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
-        m_MethodName: ChangeObjectLayer
-        m_Mode: 3
+        m_MethodName: hideObjects
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -205,7 +205,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 0
@@ -260,8 +260,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5230172702589258003}
         m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
-        m_MethodName: ChangeObjectLayer
-        m_Mode: 3
+        m_MethodName: unFreeze
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -275,8 +275,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 5230172702589258003}
         m_TargetAssemblyTypeName: HideSpheresOnTable, Assembly-CSharp
-        m_MethodName: ChangeObjectLayer
-        m_Mode: 3
+        m_MethodName: hideObjects
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
