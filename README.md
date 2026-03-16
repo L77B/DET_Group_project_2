@@ -5,7 +5,7 @@ Include the name, logo and images refering to your project
 
 ![{Your App XR} logo](./docs/example-image.jpg)
 
-## Introduction
+## Introduction (Elin fixar)
 
 Create your WaterColor Village makes you feel like a giant building your own settlement. 
 Set your own goal in this calm and cozy sandbox environment with cute sheeps and watercolored houses.
@@ -19,7 +19,7 @@ The problem detected was...
 
 The proposed solution is valuable because...
 
-## Design Process
+## Design Process (Elin skriver)
 
 [_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
 
@@ -33,7 +33,7 @@ For example:
 
 ## System description
 
-### Features
+### Features (Linnea skriver)
 
 [_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
 
@@ -48,7 +48,7 @@ Watch the demo video or try the live version.
 
 Link: <https://extralitylab.dsv.su.se/>
 
-## Installation
+## Installation (Linnea skriver)
 
 [_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
 
@@ -64,7 +64,7 @@ You also need to install the following dependencies or libraries for your projec
 - Library A - a Unity plugin for building VR and AR experiences
 - Library B - a C# wrapper for speech recognition and synthesis
 
-## Usage
+## Usage (Elin skriver)
 
 [_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
 
