@@ -5,6 +5,8 @@ Include the name, logo and images refering to your project
 
 ![{Your App XR} logo](./docs/example-image.jpg)
 
+![Sketch](./img/sketch.jpeg)
+
 ## Introduction
 
 Create your WaterColor Village makes you feel like a giant building your own settlement. 
