@@ -54,13 +54,13 @@ For example:
 -	Noise-cancelling headphones to make the user feel more immersed and calmer.
 -	Compatible with various XR platforms and devices.
 
-<img src="Assets/ImagesReadMe/menuScroll.png" width="300">
-<img src="Assets/ImagesReadMe/menuPoke.png" width="300">
+<img src="Assets/ImagesReadMe/menuScroll.png" width="100">
+<img src="Assets/ImagesReadMe/menuPoke.png" width="100">
 <img src="Assets/ImagesReadMe/setUp.png" width="300">
-<img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
-<img src="Assets/ImagesReadMe/WaterColor2.png" width="300">
-<img src="Assets/ImagesReadMe/House1.png" width="300">
-<img src="Assets/ImagesReadMe/House2.png" width="300">
+<img src="Assets/ImagesReadMe/WateerColor1.png" width="200">
+<img src="Assets/ImagesReadMe/WaterColor2.png" width="200">
+<img src="Assets/ImagesReadMe/House1.png" width="200">
+<img src="Assets/ImagesReadMe/House2.png" width="200">
 
 Watch the demo video!
 Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
