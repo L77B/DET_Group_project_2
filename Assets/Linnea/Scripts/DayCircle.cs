@@ -19,13 +19,16 @@ public class DayCircle : MonoBehaviour
     void Start()
     {
 
+        // Attaches renderer component and sets morningMaterial as default material
         objectRenderer = GetComponent<Renderer>();
         StartCoroutine(DayNightCycle());
         objectRenderer.material = morningMaterial;
     }
 
+
     IEnumerator DayNightCycle()
     {
+        // Loops through the day and night cycle until the game is restarted
         while (started)
         {
             objectRenderer.material = morningMaterial;
@@ -48,12 +51,15 @@ public class DayCircle : MonoBehaviour
         }
     }
 
+    // Starts the day and night cycle and hides the start menu
     public void startGame()
     {
         started = true;
         StartCoroutine(DayNightCycle());
         startMenu.SetActive(false);
     }
+
+    // Restarts the game by reloading the current scene
     public void RestartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);

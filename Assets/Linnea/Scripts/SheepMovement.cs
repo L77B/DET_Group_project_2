@@ -28,6 +28,7 @@ public class SheepMovement : MonoBehaviour
 
     void Update()
     {
+        // Checks if it's time to change direction and randomly decides to turn left or right
         if (Time.time >= nextChangeTime)
         {
             changeDirection = (Random.value > 0.5f) ? Vector3.right : Vector3.left;
@@ -37,15 +38,16 @@ public class SheepMovement : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Rotates the sheep based on the changeDirection and turnSpeed, then moves it forward
         float turnStep = turnSpeed * Time.fixedDeltaTime * changeDirection.x;
         moveDirection = Quaternion.AngleAxis(turnStep, Vector3.up) * moveDirection;
 
+        // Normalizes the moveDirection to ensure consistent speed and applies it to the Rigidbody's velocity
         Vector3 flatMove = moveDirection;
-
-        // flatMove.y = 0f;
-
         flatMove.Normalize();
         rb.linearVelocity = flatMove * walkSpeed;
+
+        //Turn the character so it faces where it’s moving.
         transform.rotation = Quaternion.FromToRotation(modelForward, flatMove);
 
     }
@@ -53,14 +55,15 @@ public class SheepMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        // If the sheep collides with a wall, it turns around by reversing the changeDirection and rotating 180 degrees
         if (collision.gameObject.CompareTag("Wall"))
         {
             changeDirection = -changeDirection;
             moveDirection = Quaternion.AngleAxis(180f, Vector3.up) * moveDirection;
-            Debug.Log("Collided with wall, flipping direction");
         }
     }
 
+    //makes so the sheep randomly turns left or right 
     private void ScheduleNextRandomTurn()
     {
         nextChangeTime = Time.time + Random.Range(minChangeTime, maxChangeTime);
