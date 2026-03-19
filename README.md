@@ -3,6 +3,8 @@ tangible aspects to reproduce the project in the future (see example README on n
 
 Include the name, logo and images refering to your project
 
+## Watercolor Village
+
 <img src="Assets/ImagesReadMe/Logo.jpg" width="300">
 
 <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
