@@ -35,34 +35,46 @@ For example:
 
 ### Features (Linnea skriver)
 
-[_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
+-	A day cycle of four minutes that start at the morning and ends at night. With changing sky material.
+-	Multiple sheep walking around the world. 
+-	A menu on your wrist that you can open and close. You can select objects to place in the world. The menu can be accessed with either hand, so it works for both left and right-handed people.
+-	The object appears in front of you; you can grab it by pinching. 
+-	The objects can be sized (there is a maximum size and a minimum size) through pinching the two globs at each end and dragging your hands away from each other for the object to become larger or together for it to become smaller.
+-	If objects are thrown off the table, they get deleted from the scene.
+-	There is a tangible button for restarting the scene without having to leave it.
+-	It is a start button that the user clicks in the beginning to start the cycle. They can click it through either poking or using ray casting. 
+-	Most of the 3D objects and materials are made by the creators. Through painter materials using watercolour in real life, and using Maya to 3D model the houses and sheep.
+-	Interactive and intuitive controls using hand gestures for interaction (can be used with controllers if the user wants that too).
+-	Sound on the most important interactions, such as selecting a house from the menu, and also calming background sounds to add to the feeling of the experience.
+-	A real-life table that matches the in-VR world so the user can touch it and comfortably walk around it.
+-	A blanket on the table for the texture of grass and bags with water in them, plus water sprayed on them, to get the feeling of the river. This is for the user to be able to really feel like they are in that world. 
+-	Noise-cancelling headphones to make the user feel more immersed and calmer.
+-	Compatible with various XR platforms and devices.
 
-For example:
+Watch the demo video!
+Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
 
-- Immersive and realistic 3D models of [...]
-- Interactive and intuitive controls using hand gestures and voice commands
-- Customizable settings and preferences for the user experience
-- Compatible with various XR platforms and devices
-
-Watch the demo video or try the live version.
-
+Check out the courses website!
 Link: <https://extralitylab.dsv.su.se/>
 
 ## Installation (Linnea skriver)
 
-[_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
-
-To install and run [Your app] on your platform or device, follow the instructions below:
+To install and run Watercolor Village on your platform or device, follow the instructions below:
 
 | Platform | Device | Requirements | Commands |
 | -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest   | Unity 2022.3 or higher, Arduino | `git clone https://github.com/user/repo.git`<br>`cd project-xr`<br>`open MainScene.unity`<br>`Build and Run` |
-| Android  | Phone  | Android 19 or higher, ARCore 1.18 or higher | `git clone https://github.com/user/repo.git`<br>`cd solar-system-xr`<br>`open SolarSystemXR.unity`<br>`switch platform to Android`<br>`build and run` |
+| Windows  | Meta Quest | Unity version 6000.30f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
+
 
 You also need to install the following dependencies or libraries for your project:
 
-- Library A - a Unity plugin for building VR and AR experiences
-- Library B - a C# wrapper for speech recognition and synthesis
+Package from Louis Quintero:
+- Packages - ExtralityLab@DSV for websockets and XR-introduction.
+
+Packages from Asset store:
+- Packages - DEMO: Low Poly Flower Pack for flowers in the scene.
+- Packages - Fantasy Skybox FREE for the sky materials.
+- Packages - Nature Pack - Low Poly Trees & Bushes for the trees.
 
 ## Usage (Elin skriver)
 
