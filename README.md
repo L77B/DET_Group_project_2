@@ -53,6 +53,14 @@ For example:
 -	A blanket on the table for the texture of grass and bags with water in them, plus water sprayed on them, to get the feeling of the river. This is for the user to be able to really feel like they are in that world. 
 -	Noise-cancelling headphones to make the user feel more immersed and calmer.
 -	Compatible with various XR platforms and devices.
+
+Watch the demo video!
+Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
+
+Check out the courses website!
+Link: <https://extralitylab.dsv.su.se/>
+
+Images from the project:
 <p>
 <img src="Assets/ImagesReadMe/menuScroll.png" width="200">
 <img src="Assets/ImagesReadMe/menuPoke.png" width="200">
@@ -65,11 +73,6 @@ For example:
 <img src="Assets/ImagesReadMe/House2.png" width="200">
 </p>
 
-Watch the demo video!
-Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
-
-Check out the courses website!
-Link: <https://extralitylab.dsv.su.se/>
 
 ## Installation (Linnea skriver)
 
