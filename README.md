@@ -3,7 +3,12 @@ tangible aspects to reproduce the project in the future (see example README on n
 
 Include the name, logo and images refering to your project
 
-![{Your App XR} logo](./docs/example-image.jpg)
+## Watercolor Village
+
+<img src="Assets/ImagesReadMe/Logo.jpg" width="300">
+
+<img src="Assets/ImagesReadMe/Poster.PNG" width="300">
+
 
 ## Introduction (Elin fixar)
 
@@ -49,13 +54,27 @@ For example:
 -	A real-life table that matches the in-VR world so the user can touch it and comfortably walk around it.
 -	A blanket on the table for the texture of grass and bags with water in them, plus water sprayed on them, to get the feeling of the river. This is for the user to be able to really feel like they are in that world. 
 -	Noise-cancelling headphones to make the user feel more immersed and calmer.
--	Compatible with various XR platforms and devices.
+-	Compatible with various VR headsets. We used a Meta Quest 3.
 
 Watch the demo video!
 Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
 
 Check out the courses website!
 Link: <https://extralitylab.dsv.su.se/>
+
+Images from the project:
+<p>
+<img src="Assets/ImagesReadMe/menuScroll.png" width="200">
+<img src="Assets/ImagesReadMe/menuPoke.png" width="200">
+<img src="Assets/ImagesReadMe/setUp.png" width="300">
+</p>
+<p>
+<img src="Assets/ImagesReadMe/WateerColor1.png" width="200">
+<img src="Assets/ImagesReadMe/WaterColor2.png" width="200">
+<img src="Assets/ImagesReadMe/House1.png" width="200">
+<img src="Assets/ImagesReadMe/House2.png" width="200">
+</p>
+
 
 ## Installation (Linnea skriver)
 
