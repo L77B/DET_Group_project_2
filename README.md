@@ -5,6 +5,8 @@ Include the name, logo and images refering to your project
 
 <img src="Assets/ImagesReadMe/Logo.jpg" width="300">
 
+<img src="Assets/ImagesReadMe/Poster.PNG" width="300">
+
 ## Introduction (Elin fixar)
 
 Create your WaterColor Village makes you feel like a giant building your own settlement. 
