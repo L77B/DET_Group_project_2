@@ -57,6 +57,8 @@ For example:
 <img src="Assets/ImagesReadMe/menuScroll.png" width="200">
 <img src="Assets/ImagesReadMe/menuPoke.png" width="200">
 <img src="Assets/ImagesReadMe/setUp.png" width="300">
+</p>
+<p>
 <img src="Assets/ImagesReadMe/WateerColor1.png" width="200">
 <img src="Assets/ImagesReadMe/WaterColor2.png" width="200">
 <img src="Assets/ImagesReadMe/House1.png" width="200">
