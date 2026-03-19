@@ -7,9 +7,6 @@ Include the name, logo and images refering to your project
 
 <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
 
-<img src="Assets/ImagesReadMe/menuScroll.png" width="300">
-<img src="Assets/ImagesReadMe/menuPoke.png" width="300">
-<img src="Assets/ImagesReadMe/setUp.png" width="300">
 
 ## Introduction (Elin fixar)
 
@@ -56,6 +53,14 @@ For example:
 -	A blanket on the table for the texture of grass and bags with water in them, plus water sprayed on them, to get the feeling of the river. This is for the user to be able to really feel like they are in that world. 
 -	Noise-cancelling headphones to make the user feel more immersed and calmer.
 -	Compatible with various XR platforms and devices.
+
+<img src="Assets/ImagesReadMe/menuScroll.png" width="300">
+<img src="Assets/ImagesReadMe/menuPoke.png" width="300">
+<img src="Assets/ImagesReadMe/setUp.png" width="300">
+<img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
+<img src="Assets/ImagesReadMe/WaterColor2.png" width="300">
+<img src="Assets/ImagesReadMe/House1.png" width="300">
+<img src="Assets/ImagesReadMe/House2.png" width="300">
 
 Watch the demo video!
 Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
