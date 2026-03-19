@@ -3,7 +3,7 @@ tangible aspects to reproduce the project in the future (see example README on n
 
 Include the name, logo and images refering to your project
 
-![{Your App XR} logo](./docs/example-image.jpg)
+![logo](Assets/ImagesReadMe/Logo.jpg)
 
 ## Introduction (Elin fixar)
 
