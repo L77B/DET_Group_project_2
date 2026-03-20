@@ -14,7 +14,6 @@ For example, when placing and scaling the houses.
 
 ## Design Process
 
-[_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
 The goal was to create a VR experience where the user would feel calm and creative in a sandbox environment. 
 Challenges: 
 1. The placement of the digital 3D table on the real table. 
