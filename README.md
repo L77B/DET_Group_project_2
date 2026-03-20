@@ -89,7 +89,7 @@ To install and run Watercolor Village on your platform or device, follow the ins
 
 | Platform | Device | Requirements | Commands |
 | -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest | Unity version 6000.30f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
+| Windows  | Meta Quest | Unity version 6000.3.0f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
 
 
 You also need to install the following dependencies or libraries for your project:
