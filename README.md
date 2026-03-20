@@ -1,9 +1,4 @@
- The git repository contains a comprehensive README file describing the design, digital, and
-tangible aspects to reproduce the project in the future (see example README on nextiLearn).
-
-Include the name, logo and images refering to your project
-
-## Watercolor Village
+ ## Create your Watercolor Village
 
 <img src="Assets/ImagesReadMe/Logo.jpg" width="300">
 
@@ -12,47 +7,47 @@ Include the name, logo and images refering to your project
 
 ## Introduction 
 
-Create your WaterColor Village makes you feel like a giant building your own settlement. 
-Set your own goal in this calm and cozy sandbox environment with cute sheeps and watercolored houses.
-This will be especially fun in VR beacuse you interact with everything directly with your hands. 
-For example when placing and scaling the houses. And it feels like you're a giant making your own world.
+Create your WaterColor Village makes you feel like a giant, building your own settlement. 
+Set your own goal in this calm and cozy sandbox environment with cute sheep and watercolour houses.
+This will be especially fun in VR because you interact with everything directly with your hands. 
+For example, when placing and scaling the houses. 
 
-
-[Project XR ] is an educational XR experience that lets you explore in 3D [...] . Learn about [...].
-
-The problem detected was...
-
-The proposed solution is valuable because...
-
-## Design Process (Elin skriver)
+## Design Process
 
 [_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
 The goal was to create a VR experience where the user would feel calm and creative in a sandbox environment. 
-For example:
-1. Firstlty sketches was done based on our ideas (see picture).
+Challenges: 
+1. The placement of the digital 3D table on the real table. 
+Solutions:
+
+Process: 
+1. First sketches were done based on our ideas (see picture).
+
   <img src="Assets/ImagesReadMe/IMG_0100.jpg" width="300">
-3. A moodboard was made to get an overview of the mood, colour, and vision of our project (see picture).
+  
+2. A moodboard was made to get an overview of the mood, colour, and vision of our project (see picture).
 
      <img src="Assets/ImagesReadMe/moodboard.png" width="300">
   
-5. Target user was identifed: poeple who likes to be creative.
-6. 3D models were made using a program called Maya (see picture below).
+3. Target user was identified: people who like to be creative.
+4. 3D models were made using a program called Maya (see picture below).
 
   <img src="Assets/ImagesReadMe/House1.png" width="300">      <img src="Assets/ImagesReadMe/House2.png" width="300">
 
   
-8. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
+5. Hand-painted watercolour textures were created and applied to the 3D houses (see picture below).
 
     <img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
     
     
-9. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer, etc.
+6. The overall mechanics of the VR experience were developed using grab interactions, resizing of the houses, skybox timer, etc (see Features). We had problems with the position of the digital table on the real table. However, it was solved by having the exact height in Unity as in the real world, and the same measurements as the real table. Then, adjusting the real table's position to the digital one. 
 
  <img src="Assets/ImagesReadMe/menuScroll.png" width="300">     <img src="Assets/ImagesReadMe/menuPoke.png" width="300">
 
  
-11. A poster was made to represent the experience (see picture below).
-12. 
+7. A poster was made to represent the experience (see picture below).
+
+ 
    <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
 
 
@@ -92,7 +87,9 @@ Images from the project:
 <img src="Assets/ImagesReadMe/WateerColor1.png" width="200">
 <img src="Assets/ImagesReadMe/WaterColor2.png" width="200">
 <img src="Assets/ImagesReadMe/House1.png" width="200">
-<img src="Assets/ImagesReadMe/House2.png" width="200">
+<img src="Assets/ImagesReadMe/House2.png" width="200"> 
+<img src="Assets/ImagesReadMe/tangible.jpg" width="200">
+
 </p>
 
 
@@ -117,29 +114,28 @@ Packages from Asset store:
 
 ## Usage (Elin skriver)
 
-[_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
 
 To use Watercolour Village and interact with its features, follow the guidelines below:
 
 - To move around, walk around using continuous movement.
-- 
 - To grab an object, use a pinch gesture.
 - To access the hand menu, click on the button with a poke gesture.
 - When inside the hand menu, scroll and select an object with a poke gesture.
-- To change the size of the objects, use pinch on the signifiers and move your hands closer or away from each other. 
+- To change the size of the objects, use pinch on the signifiers and move your hands closer or away from each other.
+
+See this video to understand the gestures: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
 
   
-Some tips, tricks, and best practices for using [Your App XR} effectively:
+Some tips, tricks, and best practices for using Watercolour Village effectively:
 
+- Have patience with the hand menu
 - Tip 1 Have fun
 - Tip 2 Be creative
 
 
 ## References
 
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
-
-inspiration for the project:
+Inspiration for the project:
 - Sims
 - Minecraft
 - Studio Ghibli
@@ -148,7 +144,6 @@ inspiration for the project:
 
 ## Contributors
 
-The authors of the project, contact information, and links to their websites or portfolios.
-
 Linnea Bergh - libe0812@student.su.se
+
 Elin Paulsson - elpa6278@student.su.se
