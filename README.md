@@ -27,9 +27,12 @@ Process:
   
 2. A moodboard was made to get an overview of the mood, colour, and vision of our project (see picture).
 
+
      <img src="Assets/ImagesReadMe/moodboard.png" width="300">
+     
   
 3. Target user was identified: people who like to be creative.
+  
 4. 3D models were made using a program called Maya (see picture below).
 
   <img src="Assets/ImagesReadMe/House1.png" width="300">      <img src="Assets/ImagesReadMe/House2.png" width="300">
@@ -44,7 +47,10 @@ Process:
 
  <img src="Assets/ImagesReadMe/menuScroll.png" width="300">     <img src="Assets/ImagesReadMe/menuPoke.png" width="300">
 
- 
+7. A tanible restart button was made using a esp32-s3 (see picture below):
+
+   <img src="Assets/ImagesReadMe/tangible.jpg" width="300">
+
 7. A poster was made to represent the experience (see picture below).
 
  
@@ -107,12 +113,12 @@ You also need to install the following dependencies or libraries for your projec
 Package from Louis Quintero:
 - Packages - ExtralityLab@DSV for websockets and XR-introduction.
 
-Packages from Asset store:
+Packages from Asset Store:
 - Packages - DEMO: Low Poly Flower Pack for flowers in the scene.
 - Packages - Fantasy Skybox FREE for the sky materials.
 - Packages - Nature Pack - Low Poly Trees & Bushes for the trees.
 
-## Usage (Elin skriver)
+## Usage 
 
 
 To use Watercolour Village and interact with its features, follow the guidelines below:
