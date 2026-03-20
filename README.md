@@ -92,7 +92,7 @@ Images from the demo day:
 <img src="Assets/ImagesReadMe/tangible.jpg" width="300">
 </p>
 
-## Installation (Linnea skriver)
+## Installation
 
 To install and run Watercolor Village on your platform or device, follow the instructions below:
 
