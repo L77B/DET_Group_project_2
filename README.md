@@ -10,7 +10,7 @@ Include the name, logo and images refering to your project
 
 
 
-## Introduction (Elin fixar)
+## Introduction 
 
 Create your WaterColor Village makes you feel like a giant building your own settlement. 
 Set your own goal in this calm and cozy sandbox environment with cute sheeps and watercolored houses.
@@ -31,30 +31,34 @@ The goal was to create a VR experience where the user would feel calm and creati
 For example:
 1. Firstlty sketches was done based on our ideas (see picture).
   <img src="Assets/ImagesReadMe/IMG_0100.jpg" width="300">
-3. A moodboard was made to get a overvierw over the mood, color and vision of our project (see picture).
+3. A moodboard was made to get an overview of the mood, colour, and vision of our project (see picture).
+
+     <img src="Assets/ImagesReadMe/moodboard.png" width="300">
+  
 5. Target user was identifed: poeple who likes to be creative.
-6. 3D models were made using a program called Maya (see picture).
-7. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
+6. 3D models were made using a program called Maya (see picture below).
+
+  <img src="Assets/ImagesReadMe/House1.png" width="300">      <img src="Assets/ImagesReadMe/House2.png" width="300">
+
+  
+8. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
 
     <img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
     
     
-8. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer etc.
-9. A poster was made to represent the experience (see picture below).
-10. 
-   <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
+9. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer, etc.
 
-   
-- Brainstorming: A screenshot of the whiteboard or post-it notes used to land the project's idea.
-- User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
-- User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
-- User Journey: A visualization of how your user interacts with your project, from the initial trigger to the final outcome, and what emotions they experience along the way.
-- Wireframes and Prototypes: A collection of sketches, mockups, or prototypes that show the layout, structure, and functionality of your project, and how you tested and iterated on them.
+ <img src="Assets/ImagesReadMe/menuScroll.png" width="300">     <img src="Assets/ImagesReadMe/menuPoke.png" width="300">
+
+ 
+11. A poster was made to represent the experience (see picture below).
+12. 
+   <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
 
 
 ## System description
 
-### Features (Linnea skriver)
+### Features 
 
 -	A day cycle of four minutes that start at the morning and ends at night. With changing sky material.
 -	Multiple sheep walking around the world. 
@@ -115,20 +119,20 @@ Packages from Asset store:
 
 [_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
 
-To use [Your App XR} and interact with its features, follow the guidelines below:
+To use Watercolour Village and interact with its features, follow the guidelines below:
 
-- To move around, use the touchpad or the joystick on your controller, or swipe on your phone screen.
-- To select ...a planet or a moon, point at it with your controller or your phone, or gaze at it with your headset.
-- To zoom in or out, use the trigger or the button on your controller, or pinch on your phone screen.
-- To access the information panel, press...
-- To use voice commands, say "OK" followed by one of the following phrases:
-  - "Show me [X]" - to show X element
-  - "Close window Y" - to close window Y
+- To move around, walk around using continuous movement.
+- 
+- To grab an object, use a pinch gesture.
+- To access the hand menu, click on the button with a poke gesture.
+- When inside the hand menu, scroll and select an object with a poke gesture.
+- To change the size of the objects, use pinch on the signifiers and move your hands closer or away from each other. 
+
   
 Some tips, tricks, and best practices for using [Your App XR} effectively:
 
-- Tip 1
-- Tip 2
+- Tip 1 Have fun
+- Tip 2 Be creative
 
 
 ## References
@@ -147,3 +151,4 @@ inspiration for the project:
 The authors of the project, contact information, and links to their websites or portfolios.
 
 Linnea Bergh - libe0812@student.su.se
+Elin Paulsson - elpa6278@student.su.se
