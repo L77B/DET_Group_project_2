@@ -126,6 +126,15 @@ Some tips, tricks, and best practices for using [Your App XR} effectively:
 
 Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
 
+inspiration for the project:
+- Sims
+- Minecraft
+- Studio Ghibli
+- Moomin
+- Animal Crossing
+
 ## Contributors
 
 The authors of the project, contact information, and links to their websites or portfolios.
+
+Linnea Bergh - libe0812@student.su.se
