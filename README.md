@@ -82,21 +82,15 @@ Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?us
 Check out the courses website!
 Link: <https://extralitylab.dsv.su.se/>
 
-Images from the project:
+Images from the demo day:
 <p>
-<img src="Assets/ImagesReadMe/menuScroll.png" width="200">
-<img src="Assets/ImagesReadMe/menuPoke.png" width="200">
 <img src="Assets/ImagesReadMe/setUp.png" width="300">
+<img src="Assets/ImagesReadMe/image.jpg" width="300">
 </p>
 <p>
-<img src="Assets/ImagesReadMe/WateerColor1.png" width="200">
-<img src="Assets/ImagesReadMe/WaterColor2.png" width="200">
-<img src="Assets/ImagesReadMe/House1.png" width="200">
-<img src="Assets/ImagesReadMe/House2.png" width="200"> 
-<img src="Assets/ImagesReadMe/tangible.jpg" width="200">
-
+<img src="Assets/ImagesReadMe/image1.jpg" width="300">
+<img src="Assets/ImagesReadMe/tangible.jpg" width="300">
 </p>
-
 
 ## Installation (Linnea skriver)
 
