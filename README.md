@@ -7,7 +7,7 @@ Include the name, logo and images refering to your project
 
 <img src="Assets/ImagesReadMe/Logo.jpg" width="300">
 
-<img src="Assets/ImagesReadMe/Poster.PNG" width="300">
+
 
 
 ## Introduction (Elin fixar)
@@ -30,17 +30,21 @@ The proposed solution is valuable because...
 The goal was to create a VR experience where the user would feel calm and creative in a sandbox environment. 
 For example:
 1. Firstlty sketches was done based on our ideas (see picture).
-  
+  <img src="Assets/ImagesReadMe/IMG_0100.jpg" width="300">
 3. A moodboard was made to get a overvierw over the mood, color and vision of our project (see picture).
-4. Target user was identifed: poeple who likes to be creative.
-5. 3D models were made using a program called Maya (see picture).
-6. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
+5. Target user was identifed: poeple who likes to be creative.
+6. 3D models were made using a program called Maya (see picture).
+7. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
 
     <img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
     
     
 8. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer etc.
-9. A poster was made to represent the experience (see picture). 
+9. A poster was made to represent the experience (see picture below).
+10. 
+   <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
+
+   
 - Brainstorming: A screenshot of the whiteboard or post-it notes used to land the project's idea.
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
 - User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
