@@ -94,7 +94,7 @@ To install and run Watercolor Village on your platform or device, follow the ins
 
 | Platform | Device | Requirements | Commands |
 | -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest | Unity version 6000.30f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
+| Windows  | Meta Quest | Unity version 6000.3.0f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
 
 
 You also need to install the following dependencies or libraries for your project:
@@ -131,6 +131,15 @@ Some tips, tricks, and best practices for using [Your App XR} effectively:
 
 Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
 
+inspiration for the project:
+- Sims
+- Minecraft
+- Studio Ghibli
+- Moomin
+- Animal Crossing
+
 ## Contributors
 
 The authors of the project, contact information, and links to their websites or portfolios.
+
+Linnea Bergh - libe0812@student.su.se
