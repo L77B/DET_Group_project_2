@@ -30,12 +30,17 @@ The proposed solution is valuable because...
 The goal was to create a VR experience where the user would feel calm and creative in a sandbox environment. 
 For example:
 1. Firstlty sketches was done based on our ideas (see picture).
-2. A moodboard was made to get a overvierw over the mood, color and vision of our project (see picture).
-3. Target user was identifed: poeple who likes to be creative.
-4. 3D models were made using a program called Maya (see picture).
-5. Handpainted watercolor textures were created and applied on the 3D houses.
-6. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer etc.
-7. A poster was made to represent the experience (see picture). 
+  
+3. A moodboard was made to get a overvierw over the mood, color and vision of our project (see picture).
+4. Target user was identifed: poeple who likes to be creative.
+5. 3D models were made using a program called Maya (see picture).
+6. Handpainted watercolor textures were created and applied on the 3D houses (see picture below).
+
+    <img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
+    
+    
+8. The overall mechanics of the VR experience were developed from grab interactions, resizing of the houses, skybox timer etc.
+9. A poster was made to represent the experience (see picture). 
 - Brainstorming: A screenshot of the whiteboard or post-it notes used to land the project's idea.
 - User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
 - User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
