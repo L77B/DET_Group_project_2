@@ -1,95 +1,148 @@
- The git repository contains a comprehensive README file describing the design, digital, and
-tangible aspects to reproduce the project in the future (see example README on nextiLearn).
+ ## Create your Watercolor Village
 
-Include the name, logo and images refering to your project
-
-![{Your App XR} logo](./docs/example-image.jpg)
-
-![Sketch](./img/sketch.jpeg)
-
-## Introduction
-
-Create your WaterColor Village makes you feel like a giant building your own settlement. 
-Set your own goal in this calm and cozy sandbox environment with cute sheeps and watercolored houses.
-This will be especially fun in VR beacuse you interact with everything directly with your hands. 
-For example when placing and scaling the houses. And it feels like you're a giant making your own world.
+<img src="Assets/ImagesReadMe/Logo.jpg" width="300">
 
 
-[Project XR ] is an educational XR experience that lets you explore in 3D [...] . Learn about [...].
 
-The problem detected was...
 
-The proposed solution is valuable because...
+## Introduction 
+
+Create your WaterColor Village makes you feel like a giant, building your own settlement. 
+Set your own goal in this calm and cozy sandbox environment with cute sheep and watercolour houses.
+This will be especially fun in VR because you interact with everything directly with your hands. 
+For example, when placing and scaling the houses. 
 
 ## Design Process
 
-[_Add evidence on the general overview of how you planned, designed, and developed your project, including the goals, challenges, and solutions._]
+The goal was to create a VR experience where the user would feel calm and creative in a sandbox environment. 
+Challenges: 
+1. The placement of the digital 3D table on the real table. 
+Solutions:
 
-For example:
-- Brainstorming: A screenshot of the whiteboard or post-it notes used to land the project's idea.
-- User Research: Pictures and summary of how you conducted user research, such as surveys, interviews, or observations, and what insights you gained from it.
-- User Persona: A description of your target user, their needs, motivations, and pain points, and how your project addresses them.
-- User Journey: A visualization of how your user interacts with your project, from the initial trigger to the final outcome, and what emotions they experience along the way.
-- Wireframes and Prototypes: A collection of sketches, mockups, or prototypes that show the layout, structure, and functionality of your project, and how you tested and iterated on them.
+Process: 
+1. First sketches were done based on our ideas (see picture).
+
+  <img src="Assets/ImagesReadMe/IMG_0100.jpg" width="300">
+  
+2. A moodboard was made to get an overview of the mood, colour, and vision of our project (see picture).
+
+
+     <img src="Assets/ImagesReadMe/moodboard.png" width="300">
+     
+  
+3. Target user was identified: people who like to be creative.
+  
+4. 3D models were made using a program called Maya (see picture below).
+
+  <img src="Assets/ImagesReadMe/House1.png" width="300">      <img src="Assets/ImagesReadMe/House2.png" width="300">
+
+  
+5. Hand-painted watercolour textures were created and applied to the 3D houses (see picture below).
+
+    <img src="Assets/ImagesReadMe/WateerColor1.png" width="300">
+    
+    
+6. The overall mechanics of the VR experience were developed using grab interactions, resizing of the houses, skybox timer, etc (see Features). We had problems with the position of the digital table on the real table. However, it was solved by having the exact height in Unity as in the real world, and the same measurements as the real table. Then, adjusting the real table's position to the digital one. 
+
+ <img src="Assets/ImagesReadMe/menuScroll.png" width="300">     <img src="Assets/ImagesReadMe/menuPoke.png" width="300">
+
+7. A tanible restart button was made using a esp32-s3 (see picture below):
+
+   <img src="Assets/ImagesReadMe/tangible.jpg" width="300">
+
+7. A poster was made to represent the experience (see picture below).
+
+ 
+   <img src="Assets/ImagesReadMe/Poster.PNG" width="300">
 
 
 ## System description
 
-### Features
+### Features 
 
-[_Features and functionalities of your project. You can use bullet points, screenshots, gifs, or videos to illustrate your points. Also include a link to a demo or a live version of your project._]
+-	A day cycle of four minutes that start at the morning and ends at night. With changing sky material.
+-	Multiple sheep walking around the world. 
+-	A menu on your wrist that you can open and close. You can select objects to place in the world. The menu can be accessed with either hand, so it works for both left and right-handed people.
+-	The object appears in front of you; you can grab it by pinching. 
+-	The objects can be sized (there is a maximum size and a minimum size) through pinching the two globs at each end and dragging your hands away from each other for the object to become larger or together for it to become smaller.
+-	If objects are thrown off the table, they get deleted from the scene.
+-	There is a tangible button for restarting the scene without having to leave it.
+-	It is a start button that the user clicks in the beginning to start the cycle. They can click it through either poking or using ray casting. 
+-	Most of the 3D objects and materials are made by the creators. Through painter materials using watercolour in real life, and using Maya to 3D model the houses and sheep.
+-	Interactive and intuitive controls using hand gestures for interaction (can be used with controllers if the user wants that too).
+-	Sound on the most important interactions, such as selecting a house from the menu, and also calming background sounds to add to the feeling of the experience.
+-	A real-life table that matches the in-VR world so the user can touch it and comfortably walk around it.
+-	A blanket on the table for the texture of grass and bags with water in them, plus water sprayed on them, to get the feeling of the river. This is for the user to be able to really feel like they are in that world. 
+-	Noise-cancelling headphones to make the user feel more immersed and calmer.
+-	Compatible with various VR headsets. We used a Meta Quest 3.
 
-For example:
+Watch the demo video!
+Link: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
 
-- Immersive and realistic 3D models of [...]
-- Interactive and intuitive controls using hand gestures and voice commands
-- Customizable settings and preferences for the user experience
-- Compatible with various XR platforms and devices
-
-Watch the demo video or try the live version.
-
+Check out the courses website!
 Link: <https://extralitylab.dsv.su.se/>
+
+Images from the demo day:
+<p>
+<img src="Assets/ImagesReadMe/setUp.png" width="300">
+<img src="Assets/ImagesReadMe/image.jpg" width="300">
+</p>
+<p>
+<img src="Assets/ImagesReadMe/image1.jpg" width="300">
+<img src="Assets/ImagesReadMe/tangible.jpg" width="300">
+</p>
 
 ## Installation
 
-[_Installation process to build and run your project. Use code blocks, tables, or lists to show the commands, steps, or requirements the chosen platform. Mention any dependencies or libraries that your project uses and how to install them._]
-
-To install and run [Your app] on your platform or device, follow the instructions below:
+To install and run Watercolor Village on your platform or device, follow the instructions below:
 
 | Platform | Device | Requirements | Commands |
 | -------- | ------ | ------------ | -------- |
-| Windows  | Meta Quest   | Unity 2022.3 or higher, Arduino | `git clone https://github.com/user/repo.git`<br>`cd project-xr`<br>`open MainScene.unity`<br>`Build and Run` |
-| Android  | Phone  | Android 19 or higher, ARCore 1.18 or higher | `git clone https://github.com/user/repo.git`<br>`cd solar-system-xr`<br>`open SolarSystemXR.unity`<br>`switch platform to Android`<br>`build and run` |
+| Windows  | Meta Quest | Unity version 6000.3.0f1 or higher, Arduino | `git clone https://github.com/L77B/DET_Group_project_2.git `<br>`cd project-xr`<br>`open VilageBuilder.unity`<br>`Build and Run` |
+
 
 You also need to install the following dependencies or libraries for your project:
 
-- Library A - a Unity plugin for building VR and AR experiences
-- Library B - a C# wrapper for speech recognition and synthesis
+Package from Louis Quintero:
+- Packages - ExtralityLab@DSV for websockets and XR-introduction.
 
-## Usage
+Packages from Asset Store:
+- Packages - DEMO: Low Poly Flower Pack for flowers in the scene.
+- Packages - Fantasy Skybox FREE for the sky materials.
+- Packages - Nature Pack - Low Poly Trees & Bushes for the trees.
 
-[_Usage section showing how to use your project and interact with its features. You can use examples, screenshots, gifs, or videos to demonstrate the user interface, controls, and feedback of your project. You can also provide tips, tricks, or best practices for using your project effectively._]
+## Usage 
 
-To use [Your App XR} and interact with its features, follow the guidelines below:
 
-- To move around, use the touchpad or the joystick on your controller, or swipe on your phone screen.
-- To select ...a planet or a moon, point at it with your controller or your phone, or gaze at it with your headset.
-- To zoom in or out, use the trigger or the button on your controller, or pinch on your phone screen.
-- To access the information panel, press...
-- To use voice commands, say "OK" followed by one of the following phrases:
-  - "Show me [X]" - to show X element
-  - "Close window Y" - to close window Y
+To use Watercolour Village and interact with its features, follow the guidelines below:
+
+- To move around, walk around using continuous movement.
+- To grab an object, use a pinch gesture.
+- To access the hand menu, click on the button with a poke gesture.
+- When inside the hand menu, scroll and select an object with a poke gesture.
+- To change the size of the objects, use pinch on the signifiers and move your hands closer or away from each other.
+
+See this video to understand the gestures: <https://drive.google.com/file/d/1Xnq1DW26jSc7_4_tUwSsEwHMrZ1NvsP-/view?usp=sharing>
+
   
-Some tips, tricks, and best practices for using [Your App XR} effectively:
+Some tips, tricks, and best practices for using Watercolour Village effectively:
 
-- Tip 1
-- Tip 2
+- Have patience with the hand menu
+- Tip 1 Have fun
+- Tip 2 Be creative
 
 
 ## References
 
-Acknowledge here the sources, references, or inspirations that you used for your project. Give credit to the original authors or creators of the materials that you used or adapted for your project (3D models, source code, audio effects, etc.)
+Inspiration for the project:
+- Sims
+- Minecraft
+- Studio Ghibli
+- Moomin
+- Animal Crossing
 
 ## Contributors
 
-The authors of the project, contact information, and links to their websites or portfolios.
+Linnea Bergh - libe0812@student.su.se
+
+Elin Paulsson - elpa6278@student.su.se
